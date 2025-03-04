@@ -163,12 +163,98 @@ Sounds great... where should they go to log in?
 # STEP 4
 ## Create IAM Users and User Groups
 
+Your account alias is looking slick! It should be a lot faster for users to find your account and log in now.
+
+Our new intern doesn't actually have a way to log in to the team's AWS account yet... what should their username and password be?
+
+You wouldn't want to just share your account details with them. After all, you have access to the production instance, which they shouldn't get access to.
+
+Let's solve this problem using IAM again - this time we're using two other tools called groups and users.
+
+**In this step, get ready to:**
+
+Set up a dedicated IAM group for all NextWork interns, so you can manage all interns' permissions from one place.
+Set up a dedicated IAM user for your new intern, so they have a way to log in.
+
+  * Choose User groups in your left-hand navigation panel.
+  * Choose Create group.
+  * Let's create your first user group!
+
+* To set up your user group:
+  * Name: nextwork-dev-group
+  * Attach permission policies: NextWorkDevEnvironmentPolicy
+
+![image](https://github.com/user-attachments/assets/66294085-d427-4b10-b9ce-5cb83bb02f1f)
+
+* Select Create user group. Success!
+
+![image](https://github.com/user-attachments/assets/f3786a63-5bfa-4f94-bffb-a294e0c4ed7e)
+
+* Choose Users from the left-hand navigation panel.
+* Choose Create user.
+* Let's set up this user! Under User name, enter nextwork-dev-yourname
+* Tick the checkbox to Provide user access to the AWS Management Console.
+
+
+* Uncheck the box for Users must create a new password at next sign-in - Recommended.
+
+![image](https://github.com/user-attachments/assets/b89ccc91-0385-40e1-91e7-4183c6a7df06)
+
+* Select Next when you're ready!
+* To set permissions for your user, we'll simply add it to the user group you've created. Select the checkbox next to nextwork-dev-group.
+* Select Next.
+* Select Create user!
+  
+![Capture3](https://github.com/user-attachments/assets/1eec7862-dfac-4dcc-9ef9-ed32ca9bcaa5)
+
+* It's a success - now you're seeing some specific sign-in details for your new user. Stay on this page.
+
+![Capture4](https://github.com/user-attachments/assets/04c0d1cd-5fd4-4f09-a46b-20fd248bd807)
+
+# STEP 5
+## Test your intern's Access
+
+The new intern is going to be stoked to receive their keys to the NextWork AWS account - well done 😎
+
+Before we pass them their login details, let's test the interns' IAM User's access first. That way we can make sure that they have the right access to our development instance (and not the production instance).
+
+
+In this step, get ready to:
+
+*  Log into AWS using the intern's IAM user.
+*  Test the intern's access to your production and development instance.
 
 
 
+*  Copy the Console sign-in URL. Do not close this tab!
+*  Open a new incognito window on your browser.
+*  Open the new console sign-in URL in your incognito window.
+*  aUsing the User name and Console password given in your IAM tab, let's log in!
 
+![image](https://github.com/user-attachments/assets/bfe5da12-aea9-40c3-90f6-27f99f3bcb76)
 
+*  As a new user, you'll notice that some of your dashboard panels are showing Access denied already.
 
+![image](https://github.com/user-attachments/assets/8b4e46cb-d1f7-47b3-9f8a-ec88ccb5f699)
 
+*  Head to your EC2 console, and make sure you're in the same Region as the one where you deployed your two production and development instances.
+*  Head to Instances.
+*  Select your production instance, and in the Actions dropdown, select Manage instance state.
 
+![image](https://github.com/user-attachments/assets/ca93c72e-8a6a-4ab8-8b44-a61604fa947d)
 
+*  Let's try to stop this instance. Select the Stop option, then Change state.
+
+![image](https://github.com/user-attachments/assets/a6c69e35-8cc0-4dc3-87e1-21270a81b3d7)
+
+*  Select Stop.
+
+![Capture6](https://github.com/user-attachments/assets/9f0f735e-3629-4188-bf67-406a8aeaa605)
+
+*  Now let's try to stop the development instance.
+*  Head back to the Instances page, and select the checkbox next to nextwork-development-yourname.
+*  Under the Actions drop-down, select Manage instance state.
+*  Select Stop, then Change state. Select Stop.
+*  Success!
+
+![Capture7](https://github.com/user-attachments/assets/81d196f5-e1d6-4ac7-aae1-92d2a6e562c5)
