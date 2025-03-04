@@ -209,12 +209,12 @@ Set up a dedicated IAM user for your new intern, so they have a way to log in.
 
 * It's a success - now you're seeing some specific sign-in details for your new user. Stay on this page.
 
-![Capture4](https://github.com/user-attachments/assets/04c0d1cd-5fd4-4f09-a46b-20fd248bd807)
+![image](https://github.com/user-attachments/assets/fffa7c65-c76a-4b7a-97fc-0d76a9615da9)
 
 # STEP 5
 ## Test your intern's Access
 
-The new intern is going to be stoked to receive their keys to the NextWork AWS account - well done 😎
+The new intern is going to be stoked to receive their keys to the AWS account - well done 😎
 
 Before we pass them their login details, let's test the interns' IAM User's access first. That way we can make sure that they have the right access to our development instance (and not the production instance).
 
