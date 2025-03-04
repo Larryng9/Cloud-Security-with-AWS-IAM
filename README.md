@@ -35,7 +35,7 @@ Let's start with the first task and **boost computing power** by launching some 
 
   * Switch your **Region** to the one closest to you!
 
-![image](https://github.com/user-attachments/assets/882debb0-a7f8-4058-bd42-691e395c7095)
+![image](https://github.com/user-attachments/assets/0865bd5c-f556-4bf0-a82e-68f3aeafc4ab)
 
   * In your EC2 console, choose Launch instances.
   * Let's set up your EC2 instance!
