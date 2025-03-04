@@ -80,23 +80,23 @@ Let's start with the first task and **boost computing power** by launching some 
 * Name: Larry-Development
 * Environment: Development
 
-![Capture](https://github.com/user-attachments/assets/c7070705-cebf-4d5b-8ebf-5a5d258c22bb)
+![image](https://github.com/user-attachments/assets/6b3a8233-de7c-4356-b906-daef5b663290)
 
 * Launch your second instance.
 * Select Instances from your left hand navigation panel.
 * If you only see one instance on your page, make sure to use that refresh button!
 
-![image](https://github.com/user-attachments/assets/88e337ad-7d31-4939-8496-fb5ca28279ac)
+![image](https://github.com/user-attachments/assets/afbec9a9-d247-44af-83af-bac44452c5c8)
 
 * Let's have a look at your wonderful work.
 * Select the checkbox next to one of your instances, and a popup window of information pops up!
 * Select the Tags tab.
 
-![image](https://github.com/user-attachments/assets/e9ae8b63-251f-4b77-baf3-2ad4c42ef1ee)
+![image](https://github.com/user-attachments/assets/342e8236-b216-41df-8b24-f96ba159810a)
 
 Voila - you'll see the tags you've defined right here.
 
-![image](https://github.com/user-attachments/assets/d831620c-eb5e-4089-951c-5f96cec109e4)
+![image](https://github.com/user-attachments/assets/e41972ee-444e-479f-9554-d21054788de3)
 
   # STEP 2
 ## Create an IAM Policy
@@ -112,7 +112,7 @@ To start this task, we'll use AWS IAM to give our intern access to the developme
   * Create an IAM policy that gives access to the development instance.
   * Head to your **IAM** console.
 
-![image](https://github.com/user-attachments/assets/1baaa13d-4447-4f73-97c9-79bd540f6b11)
+![image](https://github.com/user-attachments/assets/9ef9d60c-87a8-4712-88c9-c6f5018cce61)
 
   * Now on the left-hand navigation panel of your IAM console, choose Policies.
   * Choose Create policy.
@@ -132,7 +132,7 @@ To start this task, we'll use AWS IAM to give our intern access to the developme
   * Oh no! Turns out there's a rule for the characters allowed in your Policy description. Edit this description to get rid of that error (can you tell which character is not valid? There's a hint given to you right underneath the Description's text box).
   * Choose Create policy again when you're done.
 
-![image](https://github.com/user-attachments/assets/56d91aa5-ca74-408f-9ea5-66db1aac9472)
+![image](https://github.com/user-attachments/assets/b6fef1be-bcfb-47a3-847c-44b40739f5fd)
 
 # STEP 3
 ## Create an AWS Account Alias
