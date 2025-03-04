@@ -35,21 +35,21 @@ Let's start with the first task and **boost computing power** by launching some 
 
   * Switch your **Region** to the one closest to you!
 
-![image](https://github.com/user-attachments/assets/0865bd5c-f556-4bf0-a82e-68f3aeafc4ab)
+![image](https://github.com/user-attachments/assets/13becb6c-4d18-4fa5-949d-4da3e36efef7)
 
   * In your EC2 console, choose Launch instances.
   * Let's set up your EC2 instance!
-  * In Name, enter the value nextwork-production-yourname. Yup, replace yourname with your name.
+  * In Name, enter the value **Larry-Production**. Yup, replace yourname with your name.
   * Choose **Add additional tags,** which is right next to your Name field.
 
-![image](https://github.com/user-attachments/assets/4bdaf847-da61-4ae4-9bf9-902dd3de1f2a)
+![image](https://github.com/user-attachments/assets/a6ac337d-ab48-49c0-8fe3-cc41436ea74b)
 
   * Choose Add new tag.
   * For the next tag, use this information:
     * Key: Environment
     * Value: production
 
-![image](https://github.com/user-attachments/assets/ce01923a-bb66-4ae0-9c5d-3c95a8eb12dc)
+![image](https://github.com/user-attachments/assets/a1b2e124-fb7d-4666-be6b-afc6903cdc2c)
 
   * Head on down to see your EC2 settings and make sure the Amazon Machine Image (AMI) is using a Free tier eligible option.
 
@@ -65,13 +65,13 @@ Let's start with the first task and **boost computing power** by launching some 
 
   * You're ready! Click Launch instance.
 
-![image](https://github.com/user-attachments/assets/30b633a0-200d-4b49-a3dd-00f183a148ab)
+![image](https://github.com/user-attachments/assets/6c03f067-a9bc-429a-9611-dbc50649b3e2)
 
-![image](https://github.com/user-attachments/assets/e55a6246-7925-423f-abb4-cd783846a35e)
+![image](https://github.com/user-attachments/assets/a026561a-7308-4924-80b9-ae36f2e22db1)
 
   *  Looks like a success!
 
-![image](https://github.com/user-attachments/assets/2b35d233-217e-4efb-9e33-46c51e10239b)
+![image](https://github.com/user-attachments/assets/f83c6cc1-dbf9-43a5-9529-aad727dfd9eb)
 
   * Now let's create one more EC2 instance for the development environment.
 
