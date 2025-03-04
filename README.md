@@ -154,7 +154,7 @@ Sounds great... where should they go to log in?
 
 ![image](https://github.com/user-attachments/assets/9ff92fd5-89f1-4899-987f-de74ba0f89c9)
 
-  * In the Preferred alias field, enter alias-larry. Yup, replace yourname with your name!
+  * In the Preferred alias field, **enter alias-larry.** Replace yourname with your name!
     
 ![Capture2](https://github.com/user-attachments/assets/0482dcb6-f9f5-4bd9-9c78-79e41bd6d7d8)
 
@@ -181,31 +181,31 @@ Set up a dedicated IAM user for your new intern, so they have a way to log in.
   * Let's create your first user group!
 
 * To set up your user group:
-  * Name: nextwork-dev-group
-  * Attach permission policies: NextWorkDevEnvironmentPolicy
+  * Name: Larry-dev-group
+  * Attach permission policies: LarryDevEnvironmentPolicy
 
-![image](https://github.com/user-attachments/assets/66294085-d427-4b10-b9ce-5cb83bb02f1f)
+![image](https://github.com/user-attachments/assets/36c4e0a3-e695-4ee0-8b0b-44ee2e3524e0)
 
 * Select Create user group. Success!
 
-![image](https://github.com/user-attachments/assets/f3786a63-5bfa-4f94-bffb-a294e0c4ed7e)
+![image](https://github.com/user-attachments/assets/c32ed302-17d2-4c2a-ab25-899a8418fc79)
 
-* Choose Users from the left-hand navigation panel.
-* Choose Create user.
+* Choose **Users** from the left-hand navigation panel.
+* Choose **Create user.**
 * Let's set up this user! Under User name, enter nextwork-dev-yourname
 * Tick the checkbox to Provide user access to the AWS Management Console.
 
 
 * Uncheck the box for Users must create a new password at next sign-in - Recommended.
 
-![image](https://github.com/user-attachments/assets/b89ccc91-0385-40e1-91e7-4183c6a7df06)
+![image](https://github.com/user-attachments/assets/e058f1bf-11bd-4c47-b179-c608e4f13f99)
 
-* Select Next when you're ready!
-* To set permissions for your user, we'll simply add it to the user group you've created. Select the checkbox next to nextwork-dev-group.
-* Select Next.
-* Select Create user!
+* Select **Next** when you're ready!
+* To set permissions for your user, we'll simply add it to the user group you've created. Select the checkbox next to Larry-dev-group.
+* Select **Next.**
+* Select **Create user!**
   
-![Capture3](https://github.com/user-attachments/assets/1eec7862-dfac-4dcc-9ef9-ed32ca9bcaa5)
+![image](https://github.com/user-attachments/assets/ebab319b-d309-4d4d-b2ea-dba378ec2264)
 
 * It's a success - now you're seeing some specific sign-in details for your new user. Stay on this page.
 
@@ -224,7 +224,7 @@ In this step, get ready to:
 *  Log into AWS using the intern's IAM user.
 *  Test the intern's access to your production and development instance.
 
-
+![image](https://github.com/user-attachments/assets/b1c12dd5-3356-4f6b-a318-0855fb2e9141)
 
 *  Copy the Console sign-in URL. Do not close this tab!
 *  Open a new incognito window on your browser.
