@@ -1,7 +1,7 @@
 ![PSG (1) copy (67)](https://github.com/user-attachments/assets/67d6bfb2-eea5-449f-87dd-537e8c596609)
 
 ## Project Objective:
-### Creating an IAM Users and User Groups, deployed EC2 Instances and IAM policies.
+### Creating an IAM User and User Groups, deploying EC2 Instances and IAM policies.
 
 * EC2 instances
 
