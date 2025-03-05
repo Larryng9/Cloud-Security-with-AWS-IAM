@@ -229,19 +229,19 @@ In this step, get ready to:
 *  Copy the Console sign-in URL. Do not close this tab!
 *  Open a new incognito window on your browser.
 *  Open the new console sign-in URL in your incognito window.
-*  aUsing the User name and Console password given in your IAM tab, let's log in!
+*  Using the User name and Console password given in your IAM tab, let's log in!
 
-![image](https://github.com/user-attachments/assets/bfe5da12-aea9-40c3-90f6-27f99f3bcb76)
+![image](https://github.com/user-attachments/assets/619b6174-9833-4ee8-afe4-7eb6b7f87c8c)
 
 *  As a new user, you'll notice that some of your dashboard panels are showing Access denied already.
 
-![image](https://github.com/user-attachments/assets/8b4e46cb-d1f7-47b3-9f8a-ec88ccb5f699)
+![image](https://github.com/user-attachments/assets/ff02a9b5-629f-49d4-a008-a4c90b1e2aeb)
 
 *  Head to your EC2 console, and make sure you're in the same Region as the one where you deployed your two production and development instances.
 *  Head to Instances.
 *  Select your production instance, and in the Actions dropdown, select Manage instance state.
 
-![image](https://github.com/user-attachments/assets/ca93c72e-8a6a-4ab8-8b44-a61604fa947d)
+![image](https://github.com/user-attachments/assets/53f32abe-8306-49de-8769-45a156d6bb87)
 
 *  Let's try to stop this instance. Select the Stop option, then Change state.
 
@@ -249,7 +249,7 @@ In this step, get ready to:
 
 *  Select Stop.
 
-![Capture6](https://github.com/user-attachments/assets/9f0f735e-3629-4188-bf67-406a8aeaa605)
+![image](https://github.com/user-attachments/assets/67526428-2ad0-47be-94ac-5fa6dfee3b71)
 
 *  Now let's try to stop the development instance.
 *  Head back to the Instances page, and select the checkbox next to nextwork-development-yourname.
@@ -257,4 +257,5 @@ In this step, get ready to:
 *  Select Stop, then Change state. Select Stop.
 *  Success!
 
-![Capture7](https://github.com/user-attachments/assets/81d196f5-e1d6-4ac7-aae1-92d2a6e562c5)
+![image](https://github.com/user-attachments/assets/64b59585-5e66-4f44-b804-25fc3ef08a4a)
+
